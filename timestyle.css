@@ -1,0 +1,47 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20em;
+    height: 10em;
+}
+.content {
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+}
+
+.window {
+    height: 80%;
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.select {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin: -20px 0px 0px 0px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#w_timer {
+    display: none;
+}
+
+#w_stopwatch {
+    display: none;
+}
+
+input[type=number]{
+    width:50px;
+} 
